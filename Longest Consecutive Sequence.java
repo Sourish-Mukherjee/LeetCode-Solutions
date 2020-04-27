@@ -1,3 +1,8 @@
+/** 
+    Author: Sourish Mukherjee
+    Date : 27-04-2020
+*/
+
 
 class Solution {
     public int longestConsecutive(int[] nums) {
@@ -12,7 +17,7 @@ class Solution {
             if(!set.contains(n-1)) 
             {   
             /* now if no smaller elements, we can search for coninuity by increasing the number by +1 . Like 1 is the smallest in above 
-            example, we check if 2 is present, then 3 and finally 4.
+            example, we check if 2 is present, then 3 and finally 4./*
                 while(set.contains(n+1)) // Contains function is O(1)
                 {
                     c++; // Increment counter
